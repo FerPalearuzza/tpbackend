@@ -28,7 +28,7 @@
     <header>
         <div class="principal-nav">
             <div class="logo">
-                <a href="index.html">
+                <a href="{% url 'inicio' %}">
                     <h1 class="titulo">Mundo<span class="negrita">Café</span> </h1>
                 </a>
             </div>
@@ -39,16 +39,16 @@
             <!-- barra desplegable -->
             <nav class="navigation">
                 <ul>
-                    <li> <a href="historia.html">Historia</a></li>
-                    <li> <a href="receta.html">Recetas</a>
+                    <li> <a href="{% url 'historia' %}">Historia</a></li>
+                    <li> <a href="{% url 'recetas' %}">Recetas</a>
                         <ul>
-                            <li> <a href="latte.html">Latte</a></li>
-                            <li> <a href="capuccino.html">Capuccino</a></li>
-                            <li> <a href="iceCoffe.html">Ice Coffee</a></li>
-                            <li> <a href="receta.html#mas">Mas Recetas...</a></li>
+                            <li> <a href="{% url 'latte' %}">Latte</a></li>
+                            <li> <a href="{% url 'capuccino' %}">Capuccino</a></li>
+                            <li> <a href="{% url 'ice' %}">Ice Coffee</a></li>
+                            <li> <a href="{% url 'recetas' %}">Mas Recetas...</a></li>
                         </ul>
                     </li>
-                    <li> <a href="contacto.html">Contacto</a></li>
+                    <li> <a href="{% url 'contacto' %}">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -59,7 +59,7 @@
     <footer class="footer">
         <div class="contenedor">
             <div class="barraNavegacion">
-                <a href="index.html">
+                <a href="{% url 'inicio' %}">
                     <h3 class="logo__nombre">Mundo Café</h3>
                 </a>
                 <!--iconos redes sociales-->
