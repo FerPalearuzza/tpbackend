@@ -20,5 +20,12 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name="index")
+    path('', views.index, name="index"),
+    path('historia', views.historia, name="historia"),
+    path('contacto', views.contacto, name="contacto"),
+    #path('recetas', views.recetas, name="recetas"),
+    #estas no sé bien xomo haxer el url 
+    #path('latte', views.latte, name="latte"),
+    #path('capuccino', views.capuccino, name="capuccino"),
+    #path('icecoffee', views.icecoffee, name="icecoffee"),
 ]
