@@ -1,8 +1,9 @@
 {% extends "core/base.html" %}
 
 {%block title %}Contacto{%endblock%}
-{%block solo_contacto %}<link rel="stylesheet" href="styles/formulario.css">{%endblock%}
-    
+{% load static %} 
+{%block solo_contacto %}<link rel="stylesheet" href="{% static '../../static/core/styles/formulario.css' %}">{%endblock%}
+
 {%block content%}    
     <!--main-->
     <main>
@@ -75,5 +76,5 @@
     </main>
 
     <!-- ¡Scripts! -->
-    <script src="js/formulario.js"></script>
+    <script src="{% static '../../static/core/js/formulario.js' %}"></script>
     {%endblock%}

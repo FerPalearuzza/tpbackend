@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Author: SOL FER EXE,
     Proyect: MundoCafe">
-
+    {% load static %} 
     {%block solo_historia %}{%endblock%}
     {%block solo_contacto %}{%endblock%}
     {%block recetas_css %}{%endblock%}
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/animacion.css">
+    <link rel="stylesheet" href="{% static '../../static/core/styles/normalize.css' %}">
+    <link rel="stylesheet" href="{% static '../../static/core/styles/style.css' %}">
+    <link rel="stylesheet" href="{% static '../../static/core/styles/animacion.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="shortcup icon" href="img/coffee-breaks.png">
+    <link rel="shortcup icon" href="{% static '../../static/core/img/coffee-breaks.png' %}">
     
     
     <title>{%block title %}{%endblock%} - MundoCafe</title>
@@ -34,7 +34,7 @@
             </div>
 
             <input type="checkbox" id="toggle">
-            <label for="toggle"><img class="menu" src="img/menu.svg" alt="menu"></label>
+            <label for="toggle"><img class="menu" src="{% static '../../static/core/img/menu.svg' %}" alt="menu"></label>
 
             <!-- barra desplegable -->
             <nav class="navigation">
@@ -66,20 +66,22 @@
                 <div class="icon">
                     <div class="icons">
                         <span><a href="https://www.facebook.com/" target="_blank">
-                                <img class="icon" src="img/face.png" alt="facebook">
+                                <img class="icon" src="{% static '../../static/core/img/face.png' %}" alt="facebook">
                             </a></span>
                         <span><a href="https://github.com/" target="_blank">
-                                <img class="icon" src="img/github.png" alt="github">
+                                <img class="icon" src="{% static '../../static/core/img/github.png' %}" alt="github">
                             </a></span>
                         <span><a href="https://www.google.com/" target="_blank">
-                                <img class="icon" src="img/google.png" alt="google">
+                                <img class="icon" src="{% static '../../static/core/img/google.png' %}" alt="google">
                             </a></span>
-                        <span><a href="https://outlook.live.com/" target="_blank">
-                                <img class="icon" src="img/email.png" alt="email">
-                            </a></span>
+                        <span>
+                            <a href="https://outlook.live.com/" target="_blank">
+                                <img class="icon" src="{% static '../../static/core/img/email.png' %}" alt="email">
+                            </a>
+                        </span>
                     </div>
                 </div>
-
+                {% static '' %}
                 <div>
                     <p class="footer-by">By Sol, Exe & Fer Group20</p>
                 </div>

@@ -2,13 +2,14 @@
 
 {%block title %}Historia{%endblock%}
 
+{% load static %} 
 {%block solo_historia %}<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">{%endblock%}
 
 
 {%block content%}  
         <main>
             <div class="contenedor elaboracion historia-intro">
-                <img class="historia-intro" src="img/57_cafe.webp" alt="portada-hisotria">
+                <img class="historia-intro" src="{% static '../../static/core/img/57_cafe.webp' %}" alt="portada-hisotria">
             </div>
             <div class="contenedor">
                 <h2 class="no-margin historia-titulo">Conocé dónde surgió el café</h2>
@@ -40,7 +41,7 @@
                     y de actividad política, incluso fueron prohibidos en varias épocas.</p>
     
                 <div class="elaboracion">
-                    <img loading="lazy" src="img/tipos.webp" alt="elaboracion de cafe">
+                    <img loading="lazy" src="{% static '../../static/core/img/tipos.webp' %}" alt="elaboracion de cafe">
                 </div>
             </div>
     
@@ -136,7 +137,7 @@
                 </div>
     
                 <div class="tipos-granos">
-                    <img loading="lazy" src="img/cafe7.webp" alt="granos de cafe">
+                    <img loading="lazy" src="{% static '../../static/core/img/cafe7.webp' %}" alt="granos de cafe">
                 </div>
     
     
@@ -157,8 +158,8 @@
                         con leche condensada dulce y espresso arriba.</p>
     
                     <div class="cafe-europa">
-                        <img loading="lazy" class="foto1" src="img/recetas/cafe_romano.webp" alt="cafe romano">
-                        <img loading="lazy" class="foto2" src="img/recetas/cafeBonBon.webp" alt="cafe bon bon">
+                        <img loading="lazy" class="foto1" src="{% static '../../static/core/img/recetas/cafe_romano.webp' %}" alt="cafe romano">
+                        <img loading="lazy" class="foto2" src="{% static '../../static/core/img/recetas/cafeBonBon.webp' %}" alt="cafe bon bon">
                         <p class="sub nombre1">Café Romano</p>
                         <p class="sub nombre2">Café Bon Bon</p>
                     </div>
@@ -178,8 +179,8 @@
                     dado que consiste en una taza de espresso llena de leche y manchada con una gota de café.</p>
     
                 <div class="cafe-europa">
-                    <img loading="lazy" class="foto1" src="img/recetas/cafeOlla.webp" alt="cafe-olla">
-                    <img loading="lazy" class="foto2" src="img/recetas/cafe_lagrima.webp" alt="cafe-lagrima">
+                    <img loading="lazy" class="foto1" src="{% static '../../static/core/img/recetas/cafeOlla.webp' %}" alt="cafe-olla">
+                    <img loading="lazy" class="foto2" src="{% static '../../static/core/img/recetas/cafe_lagrima.webp' %}" alt="cafe-lagrima">
                     <p class="sub nombre1">Café de Olla</p>
                     <p class="sub nombre2">Café Lágrima</p>
                 </div>
