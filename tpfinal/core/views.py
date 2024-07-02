@@ -10,17 +10,16 @@ def historia(request):
 def contacto(request):
     return render(request, "core/contacto.html")
 
-'''
 def recetas(request):
-    return render(request, "core/index.html")
+    return render(request, "core/receta.html")
 
 #recetas individuales
-def icecoffee(request):
-    return render(request, "core/index.html")
+def ice(request):
+    return render(request, "core/ice.html")
 
 def latte(request):
-    return render(request, "core/index.html")
+    return render(request, "core/latte.html")
 
 def capuccino(request):
-    return render(request, "core/index.html")
-'''    
+    return render(request, "core/capuccino.html")
+   

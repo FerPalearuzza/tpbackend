@@ -23,9 +23,9 @@ urlpatterns = [
     path('', views.index, name="index"),
     path('historia', views.historia, name="historia"),
     path('contacto', views.contacto, name="contacto"),
-    #path('recetas', views.recetas, name="recetas"),
+    path('recetas', views.recetas, name="recetas"),
     #estas no sé bien xomo haxer el url 
-    #path('latte', views.latte, name="latte"),
-    #path('capuccino', views.capuccino, name="capuccino"),
-    #path('icecoffee', views.icecoffee, name="icecoffee"),
+    path('latte', views.latte, name="latte"),
+    path('capuccino', views.capuccino, name="capuccino"),
+    path('ice', views.ice, name="ice"),
 ]
