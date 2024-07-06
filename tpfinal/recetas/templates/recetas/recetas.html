@@ -153,4 +153,14 @@
 
         <!-- Script -->
         <script src="{% static '../../static/core/js/app.js' %}"></script>
+
+        <!--probando si capta el model-->
+        <p>{{recetas}}</p>
+        
+        <ul>
+            {% for receta in recetas %}
+                <li>{{receta.name}}<li>
+            {% endfor %}
+        </ul>
+
 {%endblock%}
