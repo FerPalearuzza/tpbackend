@@ -10,8 +10,6 @@ def historia(request):
 def contacto(request):
     return render(request, "core/contacto.html")
 
-def recetas(request):
-    return render(request, "core/recetas.html")
 
 #recetas individuales
 def ice(request):

@@ -17,14 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from core import views
+from recetas import views as recetas_views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="inicio"),
     path('historia', views.historia, name="historia"),
     path('contacto', views.contacto, name="contacto"),
-    path('recetas', views.recetas, name="recetas"),
-    #estas no sé bien xomo haxer el url 
+    #recetas ahora es de otra app
+    path('recetas', recetas_views.recetas, name="recetas"),
+    #estas no sé bien xomo haxer el url (con include?)
     path('latte', views.latte, name="latte"),
     path('capuccino', views.capuccino, name="capuccino"),
     path('ice', views.ice, name="ice"),
@@ -32,6 +35,7 @@ urlpatterns = [
 
 #para ver las fotos cargadas en media
 from django.conf import settings
-if settings.DEBUG:
-    from django.conf.urls.static import static
+from django.conf.urls.static import static
+
+if settings.DEBUG:    
     urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
