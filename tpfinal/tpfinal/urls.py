@@ -29,3 +29,9 @@ urlpatterns = [
     path('capuccino', views.capuccino, name="capuccino"),
     path('ice', views.ice, name="ice"),
 ]
+
+#para ver las fotos cargadas en media
+from django.conf import settings
+if settings.DEBUG:
+    from django.conf.urls.static import static
+    urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
