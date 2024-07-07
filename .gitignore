@@ -4,3 +4,6 @@ __pycache__/
 db.sqlite3
 .vscode/
 .idea/
+
+#¡se recomienda que la base de datos (db.sqlite3) también se añada al gitignore para evitar problemas!
+#¡la sincronizacion de la base de datos se controla por las migrations! por eso al clonar te pide migrar!
