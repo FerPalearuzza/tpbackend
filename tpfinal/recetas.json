@@ -1,0 +1,92 @@
+[
+{
+ "model": "recetas.receta",
+ "pk": 1,
+ "fields": {
+  "name": "Lágrima",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/lagrima.webp",
+  "created": "2024-07-06T21:22:15.181Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 2,
+ "fields": {
+  "name": "Americano",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/americano_SpsYUmp.webp",
+  "created": "2024-07-06T21:22:20.276Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 3,
+ "fields": {
+  "name": "Viena Cream",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/viena_cream.webp",
+  "created": "2024-07-06T21:22:32.182Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 4,
+ "fields": {
+  "name": "Latte Macchiato",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/latte_macchiato.webp",
+  "created": "2024-07-06T21:22:40.735Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 5,
+ "fields": {
+  "name": "Panna Cotta",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/panna_cotta.webp",
+  "created": "2024-07-06T21:22:52.427Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 6,
+ "fields": {
+  "name": "Ice",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/ice.webp",
+  "created": "2024-07-06T21:22:57.777Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 7,
+ "fields": {
+  "name": "Frutilla",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/frutilla.webp",
+  "created": "2024-07-06T21:23:05.762Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 8,
+ "fields": {
+  "name": "De Olla",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/de_olla.webp",
+  "created": "2024-07-06T21:23:11.498Z"
+ }
+},
+{
+ "model": "recetas.receta",
+ "pk": 12,
+ "fields": {
+  "name": "Capuchino",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa mollitia nobis obcaecati sit ex. Molestiae eaque dolores, sapiente dolorem rem placeat quae quas praesentium consequatur explicabo cum...",
+  "image": "recetas/capuccino.webp",
+  "created": "2024-07-07T20:07:14.254Z"
+ }
+}
+]
